@@ -1,4 +1,4 @@
-package com.example.forumhub;
+package forumhub.api;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
