@@ -1,8 +1,8 @@
 package forumhub.api.controller;
 
-import com.example.forumhub.domain.topico.*;
-
 import forumhub.api.domain.topico.*;
+
+
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

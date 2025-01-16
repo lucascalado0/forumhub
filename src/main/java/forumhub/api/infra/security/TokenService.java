@@ -8,14 +8,15 @@ import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 
 import org.springframework.beans.factory.annotation.Value;
+
 import org.springframework.stereotype.Service;
 
+import com.auth0.jwt.JWT;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
-import static org.springframework.security.config.Elements.JWT;
 
 @Service
 public class TokenService {
